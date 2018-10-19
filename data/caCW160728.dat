@@ -1,0 +1,23 @@
+#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!
+#
+#   Concentrations above the top of the boundary layer for the
+#   Atmospheric Chemistry and Canopy Exchange Simulation System (ACCESS)
+#
+#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!
+# Walker Branch Watershed data of Fuentes et al. (2007) for July 20, 1999         
+# Self-documenting section for mechanism and grid consistency
+racm2_plus          gasmech         CHARACTER    gas-phase mechanism
+87                  npts            INTEGER      number of vertical layers
+0.0                 z0              REAL         column bottom (cm)
+4300.0              zi              REAL         column top (cm)
+#
+# naloft - number of species with non-zero concentrations aloft
+5                   
+# species index     ppbv(1) or molec/cm3(2)     value
+# INTEGER           INTEGER                     REAL
+1                   1                        0.4000E+02          O3         
+6                   1                        0.2000E+00          NO2        
+73                  1                        0.1700E+04          CH4        
+14                  1                        0.1500E+03          CO         
+106                 1                        0.2000E+01          ISO - isoprene
+#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!

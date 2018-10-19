@@ -1,0 +1,42 @@
+#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!
+#
+#   Species soil data and soil compensation point concentrations
+#   Atmospheric Chemistry and Canopy Exchange Simulation System (ACCESS)
+#
+#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!
+#
+# Self-documenting section for mechanism and grid consistency
+racm2_plus         gasmech        CHARACTER   gas-phase mechanism           [16 chars max]
+87                 npts           INTEGER     number of vertical layers     [1-?] 
+0.0                z0             REAL        column bottom (cm)            [0.0-?]
+43.0               zi             REAL        column top (cm)               [?]
+#
+# soil type
+#  1 - sand
+#  2 - loamy sand
+#  3 - sandy loam
+#  4 - loam
+#  5 - silt loam
+#  6 - sandy clay loam
+#  7 - clay loam
+#  8 - silty clay loam
+#  9 - sandy clay
+# 10 - silty clay
+# 11 - clay
+# isoiltype - INTEGER
+ 6
+#
+# stheta - volumetric soil water content (m3/m3)
+# REAL
+ 0.1877
+#
+# dsoil - depth of topsoil (cm)
+# REAL
+ 203.0
+#
+# nsoil - number of species with non-zero soil compensation point concentrations
+ 1
+# species index    ppbv(1) or molec/cm3(2)    value
+# INTEGER          INTEGER                    REAL
+ 73                1                          1.7000E03     CH4
+#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!#########!
